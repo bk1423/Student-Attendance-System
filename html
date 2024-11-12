@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Attendance System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to the Student Attendance System</h1>
+    <a href="{{ url_for('mark_attendance') }}">Mark Attendance</a><br>
+    <a href="{{ url_for('view_attendance') }}">View Attendance</a>
+</body>
+</html>
